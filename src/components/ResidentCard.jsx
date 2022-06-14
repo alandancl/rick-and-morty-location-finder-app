@@ -24,7 +24,8 @@ const ResidentCard = ({residentUrl}) => {
     <article className='resident-card'>
         <img src={residentData?.image} alt="" />
         <h3 className='resident-name' style={{color: status[residentStatus]}}>{residentData?.name}</h3>
-        {/* <p className='resident-status'>{residentData?.status}</p> */}
+        <h4>Status</h4>
+        <p className='resident-status' style={{color: status[residentStatus]}}>{residentData?.status}</p>
         <h4>Origin</h4>
         <p className='resident-origin' style={{color: status[residentStatus]}}>{residentData?.origin.name}</p>
         <h4>Appears in</h4>

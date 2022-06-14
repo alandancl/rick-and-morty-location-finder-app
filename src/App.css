@@ -112,6 +112,11 @@ form button {
   margin-top: 17px;
 }
 
+.resident-status {
+  font-weight: bold;
+  font-size: 22px;
+}
+
 .resident-origin {
   font-weight: bold;
   font-size: 22px;
